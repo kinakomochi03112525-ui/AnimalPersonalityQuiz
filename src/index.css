@@ -1,0 +1,39 @@
+:root {
+  --ink: #1f3a3a;
+  --muted: #4a6563;
+  --brand: #1f8a7c;
+  --font-display: 'Mochiy Pop One', 'Zen Maru Gothic', sans-serif;
+  --font-body: 'Zen Maru Gothic', 'Hiragino Maru Gothic ProN', sans-serif;
+  color-scheme: light;
+  font-family: var(--font-body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  background: #dff7f2;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+}
